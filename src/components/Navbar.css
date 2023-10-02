@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #bbb;
+  color: #111;
+
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0;
+  padding: 0;
+}
+
+.navbar h1 {
+  width: 20%;
+  display: flex;
+  justify-content: start;
+}
+
+.navbar ul {
+  width: 45%;
+  list-style-type: none;
+  display: inline-flex;
+  justify-content: end;
+
+  float: right;
+}
+
+.navbar li {
+  padding: 3%;
+}
+
+.navbar li:hover {
+  background-color: rgba(100, 100, 100, 0.5);
+}
+
+.navbar a {
+  color: #111;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: aliceblue;
+}
